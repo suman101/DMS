@@ -24,9 +24,9 @@ BASE_DIR = Path(__file__).resolve().parent.parent
 SECRET_KEY = '#sz40a+$&ogg(fng*cr0tzs%ldd=mfy#j*zf6xen@sozjpnbiz'
 
 # SECURITY WARNING: don't run with debug turned on in production!
-DEBUG = True
+DEBUG = False
 
-ALLOWED_HOSTS = ['document-management-system-pwn.herokuapp.com','localhost','127.0.0.1']
+ALLOWED_HOSTS = ['localhost','127.0.0.1','document-management-system-pwn.herokuapp.com']
 
 
 # Application definition
